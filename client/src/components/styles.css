@@ -62,7 +62,7 @@ input:focus {
    margin: 10px;
    flex-basis: auto;
    background-color: rgba(0, 0, 0, 0.1);
-   width: 400px;
+   width: 300px;
 }
 
 .card img {

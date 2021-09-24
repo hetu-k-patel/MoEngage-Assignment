@@ -41,7 +41,7 @@ const Login = () => {
          setData({ ...data, error: true, loginSuccess: false });
       } else {
          // setData({ ...data, loginSuccess: true, error: false });
-         history.push('/hotels');
+         history.push('/animes');
       }
    };
 

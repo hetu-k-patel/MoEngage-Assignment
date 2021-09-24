@@ -6,7 +6,7 @@ const mongoose = require('mongoose');
 
 const authRoutes = require('./routes/authRoutes');
 
-const DB_URL = 'MongoDBURL';
+const DB_URL = 'MongoDB URL';
 
 mongoose.Promise = global.Promise;
 mongoose.connect(DB_URL, { useNewUrlParser: true }).then(
